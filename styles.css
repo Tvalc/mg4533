@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background: #f8f8f8;
+  font-family: Arial, sans-serif;
+}
+
+#game-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-game {
+  width: 800px;
+  height: 600px;
+  background: #fff;
+  border: 2px solid #222;
+  position: relative;
+  overflow: hidden;
+}
+
+#menu-screen, #game-screen, #end-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+.suspect {
+  width: 150px;
+  height: 200px;
+  background: #eee;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#clue-area {
+  margin: 20px;
+  padding: 10px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+}
